@@ -1,0 +1,64 @@
+
+
+*{
+    background-image: url("https://life.futuregenerali.in/media/041ogpbh/tax-saving-on-salary-increment.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.main{
+   
+    display: flex;
+    border: 7px solid black;
+    width: 500px;
+    height: 300px;
+    align-items: center ;
+    margin: auto;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/59c73df3c534a585d415fef2/1516261634823-L750EBGWN0KNPYGN8ASQ/Increment.png" 
+    );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.first{
+    
+    
+    
+    width: 100px;
+    height: 80px;
+    background-color: blanchedalmond;
+    align-items: center;
+    margin: auto;
+    
+}
+.second{
+    width: 100px;
+    height: 80px;
+    background-color: blanchedalmond;
+    align-items: center;
+    margin: auto;
+    
+}
+.zero{
+    width: 50px;
+    height: 50px;
+    /* background-color: rgb(43, 28, 10); */
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    
+    
+    border-radius: 25px;
+    font-weight: bolder;
+    font-size: 30px;
+}
