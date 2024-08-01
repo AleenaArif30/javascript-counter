@@ -5,6 +5,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
+    box-sizing: border-box;
 }
 
 
@@ -12,9 +13,11 @@
    
     display: flex;
     border: 7px solid black;
-    width: 500px;
+    width: 100%;
+    max-width:  500px;
     height: 300px;
     align-items: center ;
+    justify-content: center;
     margin: auto;
     background-image: url("https://images.squarespace-cdn.com/content/v1/59c73df3c534a585d415fef2/1516261634823-L750EBGWN0KNPYGN8ASQ/Increment.png" 
     );
@@ -39,6 +42,7 @@
     background-color: blanchedalmond;
     align-items: center;
     margin: auto;
+    cursor: grab;
     
 }
 .second{
@@ -47,18 +51,74 @@
     background-color: blanchedalmond;
     align-items: center;
     margin: auto;
-    
+    cursor: grab;
 }
+    .third{
+        width: 100px;
+        height: 40px;
+        background-color: blanchedalmond;
+        margin: auto;
+        border: none;
+        cursor: crosshair;
+        
+    
+    
+
+    }
+    .reset{
+        position: absolute;
+        top: 85%;
+        left: 50%;
+         transform: translate(-50%, -50%); 
+        /* border: 7px solid black; */
+        width: 10%;
+        max-width:  500px;
+        height: auto;
+        margin: auto;
+        
+    }
+
 .zero{
     width: 50px;
     height: 50px;
     /* background-color: rgb(43, 28, 10); */
     background-color: black;
     text-align: center;
-    padding-top: 20px;
+    line-height: 50px;
     
     
     border-radius: 25px;
     font-weight: bolder;
     font-size: 30px;
+}
+
+@media only screen and (max-width : 600px) {
+    .main{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+    .zero{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .first{
+        width: 80px;
+        height: 60px;
+        margin-top: 10px;
+    }
+    .second{
+        width: 80px;
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .reset{
+        position: absolute;
+        top: 75%;
+        left: 45%;
+    }
+
+
+    
 }

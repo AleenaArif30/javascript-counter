@@ -9,4 +9,9 @@ function decrease(){
     document.getElementById("counter").innerHTML = counter
 }
 
+function reset(){
+    counter = 0
+    document.getElementById('counter').innerHTML =counter
+}
+
 alert("Hey! welcome")
